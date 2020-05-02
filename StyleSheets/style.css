@@ -1,0 +1,764 @@
+/* body section */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* fonts section */
+/* @font-face{
+    font-family: 'Open Sans', sans-serif;
+    src: url('/Fonts/OpenSans-Light.ttf');
+} */
+/* container section */
+.container{
+    background-color: #316DC3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}   
+/* container section end */
+/* left section */
+.left{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    
+}
+.left #logo1{
+    width: 30px;
+}
+.left #logo1:hover{
+    background-color: rgb(62, 108, 247);
+}
+.left #logo2{
+    width: 26px;
+    margin-left: 18px;
+    
+}
+.left #logo2:hover{
+    background-color: rgb(62, 108, 247);
+}
+.left #logo3{
+    width: 20px;
+    margin-left: 18px;
+}
+.left #logo3:hover{
+    background-color: rgb(62, 108, 247);
+    
+}
+.left #logo4{
+    width: 25px;
+    margin-left: 18px;
+}
+.left #logo4:hover{
+    background-color: rgb(62, 108, 247);
+}
+.left #logo5{
+    width: 30px;
+    margin-left: 18px;
+}
+.left #logo5:hover{
+    background-color: rgb(62, 108, 247);
+}
+/* left section end */
+/* center section */
+.center{
+    
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.5rem;
+    margin-right: 20px;
+}
+/* center section end */
+/* right section */
+.right{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+}
+.right .link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7rem;
+    color: #427900;
+    background-color: #F5F5F5;
+    margin: 3px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+/* right section end */
+/* navigation section */
+.container1{
+    
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* left 1 section */
+.left1{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left1 img{
+    width: 200px;
+}
+/* left 1 section end */
+/* right 1 section */
+.right1{
+   
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;    
+    font-size: 0.8rem;
+    margin-left: 170px;
+}
+.navi li{
+    display: inline-block;
+        
+}
+.navi li a{
+    color: black;
+    text-decoration: none;
+    margin: 5px 0px 5px -4px ;
+    border-radius: 20px;
+    padding: 10px 18px 10px 18px;
+    font-size: 0.9rem;
+}
+.navi li a:hover , .navi li a.active{
+    color: white;
+    background-color: #316DC3;
+}
+/* right1 section end */
+/* section 1 start */
+.container2{
+    
+    height: 500px;
+    width: 100%;
+    background: url('https://www.saylaniwelfare.com/public_html/images/saylani/slider1.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/* section 1 end */
+/* marquee section start */
+.marquee{
+    
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rot{
+    
+    height: 28px;
+    width: 1150px;
+    background-color: #316DC3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#para1{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.st1{
+    color: #0AE029;
+}
+.stt{
+    color: #2755E9;
+}
+.rot a {
+    text-decoration: none;
+}
+/* marquee section end */
+/* introduction section start */
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F8FA;
+}
+.heading1{
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 1.5rem;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    height: 150px;
+    margin-top: 20px;
+}
+.heading1 img{
+    margin-top: -150px;
+    width: 280px;
+}
+.hh{
+    color: #316DC3;
+}
+.hhh{
+    color: #427900;
+}
+.para2{
+    
+    box-sizing: border-box;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+    font-size: 1rem;
+    padding: 20px 250px 100px 250px;
+}
+/* introduction section end */
+/* Countdown section start */
+.count{
+   
+    background-color: #2755E9;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+    padding: 40px 0px;
+}
+.dastarkhan{
+    
+    width: 280px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.dastarkhan img{
+    width: 40px;
+    margin-top: 50px;
+}
+.dastarkhan h1{
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-weight: 500;
+    font-size: 3rem;
+    margin-top: 5px;
+}
+.dastarkhan h2{
+    color: white;
+    font-size: 1rem;
+    margin-top: -20px;
+}
+.str{
+    color: rgb(0, 255, 38);
+}
+.family{
+    
+    width: 280px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.family img{
+    width: 40px;
+    margin-top: 50px;
+}
+.family h1{
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-weight: 500;
+    font-size: 3rem;
+    margin-top: 5px;
+}
+.family h2{
+    color: white;
+    font-size: 1rem;
+    margin-top: -20px;
+}
+.medical{
+    
+    width: 280px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.medical img{
+    width: 40px;
+    margin-top: 50px;
+}
+.medical h1{
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-weight: 500;
+    font-size: 3rem;
+    margin-top: 5px;
+}
+.medical h2{
+    color: white;
+    font-size: 1rem;
+    margin-top: -20px;
+}
+.education{
+    
+    width: 280px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.education img{
+    width: 40px;
+    margin-top: 50px;
+}
+.education h1{
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-weight: 500;
+    font-size: 3rem;
+    margin-top: 5px;
+}
+.education h2{
+    color: white;
+    font-size: 1rem;
+    margin-top: -20px;
+}
+/* countdown section end */
+/* services section start */
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F7F8FA ;
+}
+.cards{
+    
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 150px;
+}
+.cards h1{
+    display: block;
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+}
+.cards img{
+    width: 300px;
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    left: 30px;
+}
+
+.dst1{
+    color: #427900;
+}
+.dst{
+    color: #316DC3;
+}
+.card{
+    
+    margin-bottom: 50px;
+    width: 1550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+}
+.online{
+    
+    background-color: white;
+    width: 360px;
+    height: 160px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 20px 0px 5px 0px ;
+    box-shadow: 1px 1px 20px 10px rgb(226, 224, 224);
+}
+.online img{
+    width: 70px;
+    margin-top: 10px;
+}
+.online h1{
+    font-family: 'Merriweather', serif;
+    font-size: 1.22rem;
+    color: #316DC3;
+}
+.welfare{
+    background-color: white;
+    width: 360px;
+    height: 160px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 20px 0px 5px 0px ;
+    box-shadow: 1px 1px 20px 10px rgb(226, 224, 224);
+}
+.welfare img{
+    width: 70px;
+    margin-top: 10px;
+}
+.welfare h1{
+    font-family: 'Merriweather', serif;
+    font-size: 1.22rem;
+    color: #316DC3;
+}
+.medical1{
+    background-color: white;
+    width: 360px;
+    height: 160px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding: 20px 0px 5px 0px ;
+    box-shadow: 1px 1px 20px 10px rgb(226, 224, 224);
+}
+.medical1 img{
+    width: 70px;
+    margin-top: 10px;
+}
+.medical1 h1{
+    font-family: 'Merriweather', serif;
+    font-size: 1.22rem;
+    color: #316DC3;
+}
+.dastarkhan1{
+    background-color: white;
+    width: 360px;
+    height: 160px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 20px 0px 5px 0px ;
+    box-shadow: 1px 1px 20px 10px rgb(226, 224, 224);
+}
+.dastarkhan1 img{
+    width: 70px;
+    margin-top: 10px;
+}
+.dastarkhan1 h1{
+    font-family: 'Merriweather', serif;
+    font-size: 1.22rem;
+    color: #316DC3;
+}
+.roplant{
+    background-color: white;
+    width: 360px;
+    margin-left: 30px;
+    height: 160px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 20px 0px 5px 0px ;
+    box-shadow: 1px 1px 20px 10px rgb(226, 224, 224);
+}
+.roplant img{
+    width: 70px;
+    margin-top: 10px;
+}
+.roplant h1{
+    font-family: 'Merriweather', serif;
+    font-size: 1.22rem;
+    color: #316DC3;
+}
+.education1{
+    background-color: white;
+    margin-bottom: 30px;
+    width: 360px;
+    height: 160px;
+    margin-left: 30px;
+    text-align: center;
+    padding: 20px 0px 5px 0px ;
+    box-shadow: 1px 1px 20px 10px rgb(226, 224, 224);
+}
+.education1 img{
+    width: 70px;
+    margin-top: 10px;
+}
+.education1 h1{
+    font-family: 'Merriweather', serif;
+    font-size: 1.22rem;
+    color: #316DC3;
+}
+/* service section end */
+/* mission and upcoming section start */
+.upcomings{
+    
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.mission{
+    
+    font-family: 'Merriweather', serif;
+    width: 760px;
+    margin-left: 20px;
+}
+.headi{
+    
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    padding: 0px 10px 0px 5px;
+    margin: 0px 0px 10px 0px ;
+    
+}
+.mst{
+    color: #316DC3;
+}
+.hhr{
+    
+    width: 50px;
+    margin-left: 0px;
+    margin-top: -10px;
+}
+.pro{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.pro a{
+    cursor: pointer;
+}
+.hepatitis{
+    background-color: #F7F8FA;
+    width: 365px;
+    height: 80px;
+    margin-top: 15px;
+}
+.hepatitis img{
+    margin: 25px 0px 0px 20px;
+}
+.hepatitis h1{
+    font-family: 'Merriweather', serif;
+    margin: -30px 0px 0px 85px;
+    font-size: 1rem;
+}
+.hest{
+    color: #316DC3;
+}
+.house{
+    background-color: #F7F8FA;
+    width: 365px;
+    height: 80px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.house img{
+    margin: 25px 0px 0px 20px;
+}
+.house h1{
+    font-family: 'Merriweather', serif;
+    margin: -30px 0px 0px 85px;
+    font-size: 1rem;
+}
+.it{
+    background-color: #F7F8FA;
+    width: 365px;
+    height: 80px;
+    margin-top: 15px;
+}
+.it img{
+    margin: 25px 0px 0px 20px;
+}
+.it h1{
+    font-family: 'Merriweather', serif;
+    margin: -30px 0px 0px 85px;
+    font-size: 1rem;
+}
+.tharparkar{
+    background-color: #F7F8FA;
+    width: 365px;
+    height: 80px;
+   margin-top: 15px;
+   margin-left: 20px;
+}
+.tharparkar img{
+    margin: 25px 0px 0px 20px;
+}
+.tharparkar h1{
+    font-family: 'Merriweather', serif;
+    margin: -30px 0px 0px 85px;
+    font-size: 1rem;
+}
+.events{
+    
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-right: 60px;
+    margin-left: 10px;
+    width: 300px;
+}
+.details{
+    
+    margin-top: -10px;
+}
+.par{
+   
+   height: 230px;
+   overflow: hidden;
+   margin-top: 18px;
+   color: #A0A0A1;
+
+}
+.par p a{
+    color: #6464FF;
+}
+.pp{
+    width: 290px;
+    font-size: 18px;
+}
+.imagegallery{
+    
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 180px;
+}
+.card1{
+    
+    text-align: center;
+    height: 150px;
+
+    
+}
+.card1 h1{
+    
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+}
+.card1 img{
+    width: 300px;
+    margin-top: -150px;
+}
+.imggallery{
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.imggallery img{
+    margin: 2px;
+    width: 200px;
+}
+.contact{
+   
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 100px 0px;
+    justify-content: center;
+    background-color: #25272E;
+}
+.numbers{
+    
+    width: 360px;
+    height: 280px;
+}
+.par2{
+    box-sizing: border-box;
+    
+    line-height: 1.8rem;
+    color: #A0A0A1;
+    height: 250px;
+
+}
+.fl1{
+    width: 12px;
+}
+.fl2{
+    width: 25px;
+}
+.head2{
+    
+    padding: 10px 40px;
+}
+.head2 h1{
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 1rem;
+}
+#w1{
+    text-decoration: none;
+}
+.hhr1{
+    margin-left: 20px;
+}
+.links{
+    padding:10px 10px;
+    
+}
+.links h1{
+    
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 1rem;
+
+}
+.links img{
+    width: 80px;
+    margin-top: 0px;
+}
+#fb{
+    margin-left: -25px;
+}
+#imgtwi{
+    width: 80px;
+    margin-left: -36px;
+}
+#ins{
+    width: 68px;
+    margin-left: -30px;
+    margin-top: 10px;
+    position: relative;
+    top: 2px;
+    
+}
+#you{
+    width: 40px;
+    margin-left: -10px;
+}
+.hhr2{
+    
+    width: 280px;
+}
+.endy{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.end{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:#316DC3 ;
+}
+.end p{
+    color: white;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+.copyp{
+    
+    width: 910px;
+    
+}
