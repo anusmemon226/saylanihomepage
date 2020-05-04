@@ -146,10 +146,9 @@ body{
 /* right1 section end */
 /* section 1 start */
 .container2{
-    
     height: 500px;
     width: 100%;
-    background: url('https://www.saylaniwelfare.com/public_html/images/saylani/slider1.png') no-repeat;
+    background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
